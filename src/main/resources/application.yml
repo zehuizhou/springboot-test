@@ -1,0 +1,21 @@
+server:
+#  servlet:
+#    context-path:
+  port: 8081
+
+girl:
+  cupSize: C
+  name: 小芳
+  age: 18
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://118.89.90.148:3306/girl
+    username: root
+    password: '123456'
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
